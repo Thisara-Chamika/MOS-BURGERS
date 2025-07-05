@@ -1,0 +1,72 @@
+
+body {
+    background: #3b3b3b;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+}
+
+h2 {
+    color: #f58606;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 80px;
+    text-shadow: 1px 2px 8px #b2dfdb33;
+}
+
+form#addCustomerForm {
+    background: #2e2e2e;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 30px 35px 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.10);
+}
+
+label {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background: #ffffff;
+    font-size: 1.5rem;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border: 1.5px solid #ffffff;
+    outline: none;
+    background: #ffffff;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background: linear-gradient(90deg, #eb9419 0%, #171717 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #eb9419 0%, #171717 100%);
+    transform: translateY(-2px) scale(1.04);
+}
