@@ -1,10 +1,10 @@
-
+/* 
 body {
-    background: #3b3b3b;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    color: #222;
-}
-
+    /* background: #3b3b3b; */
+    /* font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222; 
+} */
+/* 
 h2 {
     color: #f58606;
     text-align: center;
@@ -13,7 +13,7 @@ h2 {
     text-shadow: 1px 2px 8px #b2dfdb33;
 }
 
-form#addCustomerForm {
+div {
     background: #2e2e2e;
     max-width: 700px;
     margin: 20px auto;
@@ -69,4 +69,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background: linear-gradient(90deg, #eb9419 0%, #171717 100%);
     transform: translateY(-2px) scale(1.04);
-}
+} */
