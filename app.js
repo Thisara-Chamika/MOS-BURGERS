@@ -55,3 +55,6 @@ function loadTable() {
 
     document.getElementById("tableCustomers").innerHTML=body;
 }
+
+
+
