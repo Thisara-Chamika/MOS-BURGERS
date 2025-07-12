@@ -10,49 +10,50 @@ if (isNull) {
 
 let editIndex ;
 
+function updateCustomer() {
+    let customer = {
+        name: document.getElementById("name").value,
+        address: document.getElementById("address").value,
+        email: document.getElementById("email").value,
+        phoneNumber: document.getElementById("phoneNumber").value,
+    };
+
+    if (editIndex !== undefined) {
+        customerList[editIndex] = customer;
+        editIndex = undefined; 
+    } else {
+        customerList.push(customer);
+    }
+
+    localStorage.setItem("customerList", JSON.stringify(customerList));
+    loadTable();
+}
+
 function loadTable() {
-
     let body = ``;
-    
-    JSON.parse(localStorage.getItem("customerList"));
 
-    for(data of customerList){
-        
-        body +=`
-            <tboday>
+    for (let i = 0; i < customerList.length; i++) {
+        let data = customerList[i];
+
+        body += `
             <tr>
                 <td>${data.name}</td>
                 <td>${data.address}</td>
                 <td>${data.email}</td>
                 <td>${data.phoneNumber}</td>
-                <td><button type="button" onclick="editCustomer(${data})" class="btn btn-secondary">EDIT</button></td>
+                <td><button type="button" onclick="editCustomer(${i})" class="btn btn-primary">EDIT</button></td>
             </tr>   
-            </tbody>
         `;
-
     }
 
-    document.getElementById("tableCustomers").innerHTML=body;
+    document.getElementById("tableCustomers").innerHTML = body;
 }
 
-
-function updateCustomer(){
-
-    JSON.parse(localStorage.getItem("customerList"));
-
-    for (let i = 0; i < customerList.length; i++) {
-        if (customerList[i].id === editIndex) {
-            customerList[i] = {
-                id: editIndex,
-                name: document.getElementById("name").value,
-                address: document.getElementById("address").value,
-                email: document.getElementById("email").value,
-                phoneNumber: document.getElementById("phoneNumber").value
-            };
-            break;
-        }
-    }
-
-    localStorage.setItem("customerList", JSON.stringify(customerList));
-    loadTable();
+function editCustomer(index) {
+    const data = customerList[index];
+    document.getElementById("name").value = data.name;
+    document.getElementById("address").value = data.address;
+    document.getElementById("email").value = data.email;
+    document.getElementById("phoneNumber").value = data.phoneNumber;
+    editIndex = index;
 }
