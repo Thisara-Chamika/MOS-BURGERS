@@ -1,0 +1,154 @@
+/* Reset and base styles */
+body, h1, label, input, button, table, th, td {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f7e9d7 0%, #e6cfa7 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+h1 {
+  color: #a84c2c;
+  font-size: 4rem;
+  margin: 32px 0 18px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 8px #fff2e0;
+}
+
+/* Form container */
+div > label {
+  display: inline-block;
+  width: 200px;
+  color: #a84c2c;
+   font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  padding: 8px 14px;
+  border: 1px solid #e6cfa7;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+  background: #fffbe9;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #a84c2c;
+  outline: none;
+}
+
+/* Button group */
+div > div {
+  margin: 18px 0 10px 0;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+button {
+  background: #a84c2c ;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(168,76,44,0.12);
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+button:hover, button:focus {
+  background: #e6cfa7;
+  color: #a84c2c;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 18px rgba(168,76,44,0.18);
+  outline: none;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 24px auto 0 auto;
+  border-collapse: collapse;
+  background: #fffbe9;
+  box-shadow: 0 4px 18px rgba(168,76,44,0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+th {
+  background: #a84c2c;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e6cfa7;
+}
+
+td {
+  border-bottom: 1px solid #e6cfa7;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Table action buttons */
+td button {
+  padding: 6px 14px;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  margin-right: 6px;
+  box-shadow: none;
+}
+
+td button:last-child {
+  margin-right: 0;
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+  table {
+    max-width: 98vw;
+    font-size: 0.95rem;
+  }
+  th, td {
+    padding: 8px 6px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  div > label {
+    width: 100px;
+    font-size: 0.95rem;
+  }
+  button {
+    padding: 8px 14px;
+    font-size: 0.95rem;
+  }
+  div > div {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
