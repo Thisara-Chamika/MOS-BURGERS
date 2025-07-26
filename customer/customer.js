@@ -11,8 +11,25 @@ if (isNull) {
 
 let editIndex;
 
+  function generateCustomerId() {
+  let maxId = 0;
+  for (let customer of customerList) {
+    if (customer.id && customer.id.startsWith("C-")) {
+      let num = parseInt(customer.id.replace("C-", ""), 10);
+      if (!isNaN(num) && num > maxId) {
+        maxId = num;
+      }
+    }
+  }
+  let nextId = maxId + 1;
+  let padded = nextId.toString().padStart(4, "0");
+  return `C-${padded}`;
+}
+
+
 function addCustomer() {
   let customer = {
+    id: generateCustomerId(),
     name: document.getElementById("customerName").value,
     email: document.getElementById("customerEmail").value,
     phone: document.getElementById("customerPhonenumber").value,
@@ -36,6 +53,7 @@ function loadTable() {
 
   let body = `
         <tr>
+          <th>ID</th>
           <th>Name</th>
           <th>Email</th>
           <th>Phone Number</th>
@@ -47,6 +65,7 @@ function loadTable() {
     var customer = customerList[i];
     body += `
         <tr>
+            <td>${customer.id ? customer.id : ''}</td>
             <td>${customer.name}</td>
             <td>${customer.email}</td>
             <td>${customer.phone}</td>
