@@ -1,0 +1,416 @@
+[
+  {
+    "code": "B1001",
+    "name": "Classic Burger (Large)",
+    "price": 750,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1002",
+    "name": "Classic Burger (Regular)",
+    "price": 1500,
+    "discount": 15,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1003",
+    "name": "Turkey Burger",
+    "price": 1600,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1004",
+    "name": "Chicken Burger (Large)",
+    "price": 1400,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1005",
+    "name": "Chicken Burger (Regular)",
+    "price": 800,
+    "discount": 20,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1006",
+    "name": "Cheese Burger (Large)",
+    "price": 1000,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1007",
+    "name": "Cheese Burger (Regular)",
+    "price": 600,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1008",
+    "name": "Bacon Burger",
+    "price": 650,
+    "discount": 15,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1009",
+    "name": "Shawarma Burger",
+    "price": 800,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1010",
+    "name": "Olive Burger",
+    "price": 1800,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1012",
+    "name": "Double-Cheese Burger",
+    "price": 1250,
+    "discount": 20,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1013",
+    "name": "Crispy Chicken Burger (Regular)",
+    "price": 1200,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1014",
+    "name": "Crispy Chicken Burger (Large)",
+    "price": 1600,
+    "discount": 10,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1015",
+    "name": "Paneer Burger",
+    "price": 900,
+    "discount": 0,
+    "category": "Burgers",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1016",
+    "name": "Crispy Chicken Submarine (Large)",
+    "price": 2000,
+    "discount": 0,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1017",
+    "name": "Crispy Chicken Submarine (Regular)",
+    "price": 1500,
+    "discount": 0,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1018",
+    "name": "Chicken Submarine (Large)",
+    "price": 1800,
+    "discount": 3,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1019",
+    "name": "Chicken Submarine (Regular)",
+    "price": 1400,
+    "discount": 0,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1020",
+    "name": "Grinder Submarine",
+    "price": 2300,
+    "discount": 0,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1021",
+    "name": "Cheese Submarine",
+    "price": 2200,
+    "discount": 0,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1022",
+    "name": "Double Cheese n Chicken Submarine",
+    "price": 1900,
+    "discount": 16,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1023",
+    "name": "Special Horgie Submarine",
+    "price": 2800,
+    "discount": 0,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1024",
+    "name": "MOS Special Submarine",
+    "price": 3000,
+    "discount": 0,
+    "category": "Submarines",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1025",
+    "name": "Steak Fries (Large)",
+    "price": 1200,
+    "discount": 0,
+    "category": "Fries",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1026",
+    "name": "Steak Fries (Medium)",
+    "price": 600,
+    "discount": 0,
+    "category": "Fries",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1027",
+    "name": "French Fries (Large)",
+    "price": 800,
+    "discount": 0,
+    "category": "Fries",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1028",
+    "name": "French Fries (Medium)",
+    "price": 650,
+    "discount": 0,
+    "category": "Fries",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1029",
+    "name": "French Fries (Small)",
+    "price": 450,
+    "discount": 0,
+    "category": "Fries",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1030",
+    "name": "Sweet Potato Fries (Large)",
+    "price": 600,
+    "discount": 0,
+    "category": "Fries",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1031",
+    "name": "Chicken n Cheese Pasta",
+    "price": 1600,
+    "discount": 15,
+    "category": "Pasta",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1032",
+    "name": "Chicken Penne Pasta",
+    "price": 1700,
+    "discount": 0,
+    "category": "Pasta",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1033",
+    "name": "Ground Turkey Pasta Bake",
+    "price": 2900,
+    "discount": 10,
+    "category": "Pasta",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1034",
+    "name": "Creamy Shrimp Pasta",
+    "price": 2000,
+    "discount": 0,
+    "category": "Pasta",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1035",
+    "name": "Lemon Butter Pasta",
+    "price": 1950,
+    "discount": 0,
+    "category": "Pasta",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1036",
+    "name": "Tagliatelle Pasta",
+    "price": 2400,
+    "discount": 1,
+    "category": "Pasta",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1037",
+    "name": "Baked Ravioli",
+    "price": 2000,
+    "discount": 1,
+    "category": "Pasta",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1038",
+    "name": "Fried Chicken (Small)",
+    "price": 1200,
+    "discount": 0,
+    "category": "Chicken",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1039",
+    "name": "Fried Chicken (Regular)",
+    "price": 2300,
+    "discount": 10,
+    "category": "Chicken",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1040",
+    "name": "Fried Chicken (Large)",
+    "price": 3100,
+    "discount": 5,
+    "category": "Chicken",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1041",
+    "name": "Hot Wings (Large)",
+    "price": 2400,
+    "discount": 0,
+    "category": "Chicken",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1042",
+    "name": "Devilled Chicken (Large)",
+    "price": 900,
+    "discount": 0,
+    "category": "Chicken",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1043",
+    "name": "BBQ Chicken (Regular)",
+    "price": 2100,
+    "discount": 0,
+    "category": "Chicken",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1044",
+    "name": "Pepsi (330ml)",
+    "price": 990,
+    "discount": 5,
+    "category": "Beverages",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1045",
+    "name": "Coca-Cola (330ml)",
+    "price": 1230,
+    "discount": 0,
+    "category": "Beverages",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1046",
+    "name": "Sprite (330ml)",
+    "price": 1500,
+    "discount": 3,
+    "category": "Beverages",
+    "qty": 100,
+    "expiry": ""
+  },
+  {
+    "code": "B1047",
+    "name": "Mirinda (330ml)",
+    "price": 850,
+    "discount": 7,
+    "category": "Beverages",
+    "qty": 100,
+    "expiry": ""
+  }
+]
